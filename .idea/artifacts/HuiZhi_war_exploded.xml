@@ -1,16 +1,19 @@
 <component name="ArtifactManager">
-  <artifact type="exploded-war" name="项目:war exploded">
+  <artifact type="exploded-war" name="HuiZhi:war exploded">
     <output-path>$PROJECT_DIR$/target/huizhi</output-path>
     <root id="root">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
-          <element id="module-output" name="项目" />
+          <element id="module-output" name="HuiZhi" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: mysql:mysql-connector-java:5.1.41" />
         </element>
       </element>
       <element id="directory" name="META-INF">
         <element id="file-copy" path="$PROJECT_DIR$/target/huizhi/META-INF/MANIFEST.MF" />
       </element>
-      <element id="javaee-facet-resources" facet="项目/web/Web" />
+      <element id="javaee-facet-resources" facet="HuiZhi/web/Web" />
     </root>
   </artifact>
 </component>
